@@ -1,0 +1,33 @@
+{
+  "name": "start-only",
+  "version": "1.0.0",
+  "description": "Start new project web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://raulmelo25@bitbucket.org/onlytech/only-start-bootstrap.git"
+  },
+  "keywords": [
+    "gulp",
+    "bootstrap"
+  ],
+  "author": "raul melo",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/onlytech/only-start-bootstrap#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.4.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^1.2.4",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "gulp-install": "^1.1.0"
+  }
+}

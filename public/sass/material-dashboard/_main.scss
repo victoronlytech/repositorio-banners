@@ -1,0 +1,20 @@
+.row-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+._card-image-link{
+    display: block;
+}
+._breadcrumb + ._breadcrumb{
+    &:before{
+        content: '';
+        height: 30px;
+        width: 2px;
+        background: #e0e0e0;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

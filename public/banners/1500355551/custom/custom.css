@@ -1,0 +1,268 @@
+/* Copyright (c) 2013 Admotion */
+/* Custom Stylesheet: Add, remove or overwrite the template rules here */
+@charset "utf-8";
+
+/*--------------------------------------*/
+/* Creativity style							*/
+/*--------------------------------------*/
+
+.inpage-section #Creativity{
+	background-color: #EAEDE9;
+}
+
+/* Animação */
+#wrapper {
+	overflow: hidden;
+	width: 800px;
+	height: 500px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+	background: #fbba31;
+	background: -webkit-linear-gradient(top left, #fbba31, #fcdb2f);
+	background: -o-linear-gradient(top left, #fbba31, #fcdb2f);
+	background: -moz-linear-gradient(top left, #fbba31, #fcdb2f);
+	background: linear-gradient(top left, #fbba31, #fcdb2f);
+	font-family: Arial;
+}
+
+.animacao {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.linha {
+	background: #0063a8;
+	position: absolute;
+}
+
+#linha1 {
+	bottom: 0;
+	left: 30px;
+	width: 5px;
+	height: 0px;
+}
+
+#linha2 {
+	bottom: 130px;
+	left: 30px;
+	width: 0px;
+	height: 5px;
+}
+
+#linha3 {
+	bottom: 0;
+	left: 495px;
+	width: 5px;
+	height: 0px;
+}
+
+#linha4 {
+	bottom: 60px;
+	right: 0;
+	width: 0px;
+	height: 5px;
+}
+
+#linha5 {
+	bottom: 60px;
+	right: 380px;
+	width: 5px;
+	height: 0px;
+}
+
+#linha6 {
+	top: 0;
+	right: 380px;
+	width: 5px;
+	height: 0px;
+}
+
+p {
+	margin: 0;
+	color: #0063a8;
+	text-align: left;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+strong {
+	font-weight: 700;
+}
+
+#parte1 {
+	display: block;
+}
+
+.text-frame {
+	position: absolute;
+}
+
+#text1 {
+	top: 150px;
+	left: 250px;
+	width: 350px;
+	opacity: 0;
+}
+
+#text2 {
+	top: 190px;
+	left: 350px;
+	width: 140px;
+	opacity: 0;
+}
+
+#parte2 {
+	height: 250px;
+	display: none;
+}
+
+#carro {
+	position: absolute;
+	bottom: -300px;
+	right: 0px;
+}
+
+#linha7 {
+	top: 0;
+	right: 140px;
+	width: 5px;
+	height: 0px;
+}
+
+#linha8 {
+	bottom: 40px;
+	left: 0;
+	width: 0px;
+	height: 5px;
+}
+
+#linha9 {
+	top: 50px;
+	right: 0;
+	width: 0px;
+	height: 5px;
+}
+
+#linha10 {
+	top: 50px;
+	left: 210px;
+	width: 5px;
+	height: 0px;
+}
+
+#linha11 {
+	bottom: 0;
+	left: 210px;
+	width: 5px;
+	height: 0px;
+}
+
+#text3 {
+	top: 170px;
+	left: 80px;
+	width: 255px;
+	opacity: 0;
+}
+
+#parte3 {
+	height: 250px;
+	display: none;
+}
+
+#logos {
+	position: absolute;
+	bottom: -100px;
+	left: 60px;
+}
+
+#text4 {
+	top: 120px;
+	left: 140px;
+	width: 350px;
+	opacity: 0;
+}
+
+a.btn {
+	background: #004b98;
+	color: #fff;
+	border-radius: 5px;
+	border: 0;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+	position: absolute;
+	top: 105px;
+	left: 20px;
+	opacity: 0;
+}
+a.btn:hover {
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24), 0 5px 10px 0 rgba(0,0,0,0.19);
+}
+
+.cubo {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 100%;
+	left: 0;
+}
+
+.cubo img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.cartao {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.cartao img {
+	position: absolute;
+	bottom: 50px;
+	left: 200px;
+	width: 0%;
+}
+
+.text {
+	width: 160px;
+	padding-left: 20px;
+	position: relative;
+}
+.text p {
+	position: absolute;
+	top: 40px;
+	opacity: 0;
+}
+
+.logoBB {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	opacity: 0;
+}
+
+.footer {
+	font-size: 10px;
+	line-height: 7px;
+	width: 100%;
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	bottom: 8px;
+	opacity: 0;
+	text-align: center;
+}
+
